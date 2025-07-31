@@ -1,0 +1,17 @@
+# Streamlit app framework
+streamlit==1.35.0
+
+# PDF parsing and text extraction
+pdfminer.six==20221105
+
+# Image processing
+Pillow==10.2.0
+
+# NLP tools
+nltk==3.8.1
+
+# Custom tags input in Streamlit
+streamlit-tags==1.2.8
+
+# Optional: for compatibility and performance
+typing-extensions>=4.5.0
