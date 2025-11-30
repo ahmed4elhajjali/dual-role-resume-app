@@ -1,19 +1,17 @@
-streamlit
-pandas
-pillow
-pdfminer.six
-streamlit-tags
-nltk
 streamlit==1.38.0
 nltk==3.8.1
-Pillow==10.3.0
+Pillow==10.4.0
 streamlit-tags==1.2.8
-resume-parser==0.8.4
-pdfminer.six==20221105
-python-docx==1.1.2
 spacy==3.7.5
 numpy==1.26.4
 pandas==2.2.2
 PyPDF2==3.0.1
-pdfplumber==0.11.4
+python-docx==1.1.2
 python-multipart==0.0.9
+
+# أهم حاجة: نستخدم إصدارات متوافقة من pdfminer
+pdfminer.six==20231228
+pdfplumber==0.11.4
+
+# بدل resume-parser القديم → نستخدم مكتبة حديثة وخفيفة وشغالة
+git+https://github.com/OmkarPathak/pyresparser.git
