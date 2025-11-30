@@ -1,8 +1,10 @@
 [server]
-port = $PORT
-enableCORS = false
 headless = true
+enableCORS = false
 address = "0.0.0.0"
+
+# الـ port مش هنكتبه خالص هنا، Railway هيحطه لوحده
+# فامسح السطر اللي فيه port = $PORT تمامًا
 
 [theme]
 primaryColor = "#F63366"
