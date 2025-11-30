@@ -47,7 +47,7 @@ def course_recommender(course_list):
 
 # ---------------- Main App ---------------- #
 def run():
-    img = Image.open('./Logo/logo2.png')
+    img = Image.open('Logo/logo2.png')
     st.image(img)
     st.title("AI Resume Analyzer")
 
@@ -225,4 +225,5 @@ def run():
 
 if __name__ == '__main__':
     run()
+
 
