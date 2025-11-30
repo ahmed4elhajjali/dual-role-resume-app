@@ -3,7 +3,7 @@ import os, time, random, base64, io
 from PIL import Image
 import nltk
 from streamlit_tags import st_tags
-from custom_resume_parser import ResumeParser
+from pyresparser import ResumeParser
 from Courses import ds_course, web_course, android_course, ios_course, uiux_course, resume_videos, interview_videos
 from pdfminer.layout import LAParams
 from pdfminer.pdfpage import PDFPage
@@ -227,6 +227,7 @@ def run():
 
 if __name__ == '__main__':
     run()
+
 
 
 
