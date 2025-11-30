@@ -12,8 +12,7 @@ from pdfminer.converter import TextConverter
 
 nltk.download('stopwords')
 
-st.set_page_config(page_title="AI Resume Analyzer", page_icon='./Logo/logo2.png')
-
+st.set_page_config(page_title="AI Resume Analyzer", page_icon="Logo/logo2.png", layout="centered")
 # ---------------- PDF Functions ---------------- #
 def pdf_reader(file):
     resource_manager = PDFResourceManager()
@@ -226,3 +225,4 @@ def run():
 
 if __name__ == '__main__':
     run()
+
