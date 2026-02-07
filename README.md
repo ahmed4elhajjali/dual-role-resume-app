@@ -49,5 +49,47 @@ It helps **job seekers** understand the strength of their resumes and assists **
 
 ---
 
-## 🗂️ Project Structure
+
+---
+
+## ⚙️ Technologies Used
+
+- Python
+- Streamlit
+- Natural Language Processing (NLP)
+- PyResparser
+- NLTK
+- PDFMiner
+- PIL (Python Imaging Library)
+
+---
+
+## 🎯 Use Cases
+
+- Resume self-evaluation for job seekers
+- Skill gap analysis
+- Candidate screening for recruiters
+- Educational NLP-based projects
+
+---
+
+## 🔮 Future Enhancements
+
+- Machine learning–based resume scoring
+- Support for DOCX resumes
+- Advanced analytics dashboard
+- AI-driven career path recommendations
+
+---
+
+## 🤝 Author
+
+**Ahmed Mostafa**  
+AI Engineer | Data Scientist | NLP Enthusiast  
+
+---
+
+## ⚠️ Disclaimer
+
+This project is for educational and demonstration purposes only and should not be used as the sole decision-making system in real-world recruitment.
 
